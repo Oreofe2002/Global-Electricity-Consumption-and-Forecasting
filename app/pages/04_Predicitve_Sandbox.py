@@ -11,6 +11,8 @@ from sklearn.pipeline import Pipeline
 PAGES_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(os.path.dirname(PAGES_DIR))
 CLEAN_DATA_PATH = os.path.join(ROOT_DIR, "data", "processed", "energy_cleaned.csv")
+if not os.path.exists(CLEAN_DATA_PATH):
+    CLEAN_DATA_PATH = os.path.join(ROOT_DIR, "data", "Processed", "energy_cleaned.csv")
 
 @st.cache_data
 def load_and_train_champion_model():
