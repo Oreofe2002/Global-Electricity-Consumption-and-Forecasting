@@ -2,7 +2,7 @@
 
 A full-stack data science portfolio project and interactive multi-page web application built to analyze historical energy transitions, evaluate macroeconomic demand indicators using machine learning, and forecast future regional electricity grid needs through 2030.
 
-🔗 **Live Interactive Dashboard:** *(https://global-electricity-consumption-and-forecasting-m5qcbddczwyg5ca.streamlit.app/)*
+🔗 **Live Interactive Dashboard:** *https://global-electricity-consumption-and-forecasting-m5qcbddczwyg5ca.streamlit.app/*
 
 ---
 
