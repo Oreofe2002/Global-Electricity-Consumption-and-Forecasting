@@ -11,6 +11,9 @@ ROOT_DIR = os.path.dirname(os.path.dirname(PAGES_DIR))
 
 # Step 3: Link straight down into your true historical data matrix file
 CLEAN_DATA_PATH = os.path.join(ROOT_DIR, "data", "processed", "energy_cleaned.csv")
+if not os.path.exists(CLEAN_DATA_PATH):
+    CLEAN_DATA_PATH = os.path.join(ROOT_DIR, "data", "Processed", "energy_cleaned.csv")
+
 
 @st.cache_data
 def load_data():
